@@ -13,7 +13,6 @@ from urllib.parse import urlparse
 # ==================================================
 #                    الإعدادات
 # ==================================================
-load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
 intents = discord.Intents.default()
