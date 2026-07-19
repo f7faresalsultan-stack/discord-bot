@@ -677,4 +677,4 @@ async def on_command_error(ctx, err):
         await ctx.send("❌ بيانات ناقصة", delete_after=5)
     else:
         print(f"خطأ: {str(err)}\n{traceback.format_exc()}")
-       bot.run(TOKEN) 
+        bot.run(TOKEN)
