@@ -8,7 +8,6 @@ import re
 import traceback
 import shutil
 from datetime import timedelta
-from dotenv import load_dotenv
 from urllib.parse import urlparse
 
 # ==================================================
@@ -678,3 +677,4 @@ async def on_command_error(ctx, err):
         await ctx.send("❌ بيانات ناقصة", delete_after=5)
     else:
         print(f"خطأ: {str(err)}\n{traceback.format_exc()}")
+       bot.run(TOKEN) 
